@@ -1,0 +1,16 @@
+{
+  "name": "sdp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install-server": "cd server && npm install --force --legacy-peer-deps",
+    "start-server": "cd backend && node index.js",
+    "install-client": "cd newapp && npm install",
+    "build-client": "cd newapp && npm run build",
+    "start-client": "cd client && npm run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
