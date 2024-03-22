@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "install-server": "cd server && npm install --force --legacy-peer-deps",
-    "start-server": "cd backend && node index.js",
+    "start-server": "cd server && node index.js",
     "install-client": "cd newapp && npm install",
     "build-client": "cd newapp && npm run build",
-    "start-client": "cd client && npm run start"
+    "start-client": "cd newapp && npm run start"
   },
   "keywords": [],
   "author": "",
